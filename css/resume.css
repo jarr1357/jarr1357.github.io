@@ -181,9 +181,12 @@ a:hover, a:focus, a:active {
 
 @media (max-width: 992px)
 {
-    #parallax
-    {
+    #parallax{
         display: none;
+    }
+
+    #coding {
+      margin-top: 100px;
     }
 }
 
@@ -206,3 +209,20 @@ a:hover, a:focus, a:active {
 
 /* Remove Bottom Margin from Jumbotron */
 .jumbotron{margin-bottom: 0;}
+
+.outer {
+  margin-left: 20px;
+}
+
+.inner {
+  margin-left: 0px;
+}
+
+#languages{
+  flex-wrap: wrap;
+}
+
+#lang {
+  flex: 0 0 400px;
+  margin-right: 50px;
+}
